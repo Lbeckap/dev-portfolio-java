@@ -1,7 +1,9 @@
 package com.example.dev_porfolio.models;
 
 
+import jakarta.persistence.Entity;
 
+@Entity
 public class Project extends AbstractEntity {
 
     private String description;
